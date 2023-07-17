@@ -1,0 +1,21 @@
+p span {
+  margin: 0;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid salmon;
+  background-color: #fff;
+
+  &:hover {
+    background-color: #efefef;
+    cursor: pointer;
+  }
+}
+
+.number {
+  width: 60px;
+  margin: 0 20px;
+  font-size: 20px;
+}

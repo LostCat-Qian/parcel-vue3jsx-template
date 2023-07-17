@@ -1,0 +1,22 @@
+{
+  "name": "parcel-vuejsx-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./public/index.html",
+    "build": "parcel build ./public/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@parcel/transformer-vue": "^2.9.3",
+    "@vue/babel-plugin-jsx": "^1.1.5",
+    "parcel": "^2.9.3",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  }
+}
