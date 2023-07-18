@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel serve ./public/index.html",
+    "dev": "parcel serve public/index.html --no-cache",
     "build": "parcel build ./public/index.html"
   },
   "devDependencies": {
